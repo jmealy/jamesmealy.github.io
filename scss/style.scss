@@ -1,0 +1,107 @@
+@import "vendors/_bootstrap.scss";
+
+/* Vars */
+
+$primary-color: red;
+$background-color: #ededed;
+$text-color: #363636;
+$font: 16px;
+
+body{
+  padding-bottom: 0px;
+  font-family: 'Open Sans' , Arial, Tahoma;
+  color: $text-color;
+  background: $background-color;
+  font-size: $font;
+}
+
+h2{
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.4cm;
+}
+
+strong, h2{
+  color: $primary-color;
+}
+
+.container-main{
+  background: #fff;
+  margin-bottom:80px;
+  margin-top:80px;
+  padding: 0 30px 30px 30px;
+}
+
+header{
+  min-height:100px;
+  overflow:auto;
+}
+
+header h1{
+  margin:0;
+  padding: 20px 0 0 0;
+  font-weight:700;
+  line-height:1.4cm;
+  text-align:center;
+  letter-spacing:-1px;
+  text-transform: uppercase;
+}
+
+
+.profile-img{
+  width: 160px;
+  display: block;
+  margin:auto;
+  margin-top:-60px; 
+}
+
+.navbar{
+  float:none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  text-align:center;
+  background-color: red;
+}
+
+.line-img{
+  max-width:100%;
+}
+
+.contact-list{
+  padding:0;
+  margin:0;
+}
+
+.contact-list li{
+  list-style:none;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.contact-list span{
+  display:block;
+  margin:0;
+}
+
+.media{
+  background: $background-color;
+  padding:10px;
+  
+}
+
+.work-list li{
+  list-style:none;
+  float:left;
+  padding: 0 10px 0 10px;
+  margin-bottom:30px;
+  
+}
+
+footer{
+  background: $primary-color;
+  color:#fff;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
