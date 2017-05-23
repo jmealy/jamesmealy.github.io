@@ -10,17 +10,8 @@ body {
   margin-top: 150px;
 }
 
-/*hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color: gray;
-  height: 1px;
-}*/
-
 h2 {
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-transform: uppercase;
   line-height: 1.4cm;
 }
