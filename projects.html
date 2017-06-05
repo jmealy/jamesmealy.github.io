@@ -5,10 +5,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About</title>
-	<!-- Custom styles for this template -->
+	<title>Projects</title>
+	<!--bootstrap css-->
 	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
 	<link href="css/style.css" rel="stylesheet">
+	<!--font awesome for symbols-->
+	<link rel="stylesheet" href="css/font-awesome.css">
 </head>
 
 <body>
@@ -28,48 +31,74 @@
 				</div>
 				<div id="navbar" class="collapse navbar-collapse navbar-right">
 					<ul class="nav navbar-nav">
-						<li class="hidden"><a href="#page-top"></a></li>
-						<li ><a href="index.html">About</a></li>
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li><a href="index.html">About</a></li>
 						<li class="active-page"><a href="#">Projects</a></li>
-						<li ><a href="#">CV</a></li>
+						<li><a href="#">CV</a></li>
 						<!--<li ><a href="#contact">Contact</a></li>-->
 					</ul>
 				</div>
 			</div>
 		</nav>
 
+		<div class="container page-content">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<a href="https://github.com/jmealy/final-year-project">
+						<h1>Final Year Project</h1>
+					</a>
+					<h3>Sentiment Analysis and Topic Modelling in Python</h3>
+					<p>The aim of this project was create a desktop application (similar to a file manager) capable of labeling files according
+						to their sentiment using machine learning techniques. This involves taking a list of labelled training data to create
+						a classifier, which was then used to assign positive or negative sentiment to unlabeled files.
+					</p>
+					<p>
+						The training data used for testing this project was a set of movie reviews labeled as positive or negative. Positive or negative
+						sentiment was inferred from the 5 start rating given to the movie by the review.</p>
+					<p>The project was then extended to be able to classify files by language, topic, or any other criteria, as long as the
+						appropriate training data was provided.</p>
+					<p>The poject was extended further to be able to classify files according to their topic without needing labeled training
+						data, ie. unsupervised classification. This was done using a topic modelling algorithm called Latent Dirichlet Allocation.</p>
+					<p>The main Python libraries used in this project were:</p>
+					<ul>
+						<li>Scikit-learn</li>
+						<li>NLTK</li>
+						<li>Gensim</li>
+						<li>wxPython</li>
+						<li>NumPy</li>
+					</ul>
+					<p>The source code and formal report for the project can be seen on <a href="https://github.com/jmealy/final-year-project">Github</a>.</p>
+					<a href="https://github.com/jmealy/jamesmealy.github.io">
+						<h1>Personal Website</h1>
+					</a>
+					<p>This is the site you are looking at now. It was built using HTML, CSS, and Twitter Bootstrap.</p>
+					<p>The source code for this project can be seen <a href="https://github.com/jmealy/jamesmealy.github.io">on Github.</a></p>
 
-		<!--<div class="row">
-			<div class="col-md-7 col-md-offset-1">
-				<h2>About Me</h2>
-				<p>Nulla in eros sed urna tincidunt bibendum. Phasellus vel lacus nec arcu viverra congue sed et tellus. Curabitur vitae
-					nunc rutrum metus sagittis pharetra ac ac quam. Nullam pretium sapien ut eros vehicula tempor. Cum sociis natoque penatibus
-					et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					<a href="https://youtu.be/nnDbuexGBrI">
+						<h1>Automated Guitar</h1>
+					</a>
+					<p>This project, completed in a group of five, involved creating a mussical device using an arduino board. Our group chose
+						to make a programmable one string guitar.</p>
+					<p>Servo motors, controlled by the arduino, were used to hold the string at each fret of the guitar. Another servo motor
+						was used to pluck the string. You can view a demo of the project <a href="https://youtu.be/nnDbuexGBrI">here</a>.</p>
+					<p></p>
+				</div>
 			</div>
-
-			<div class="col-md-3 ">
-				<h2>Contact Me</h2>
-				<ul class="contact-list">
-					<li><img src="img/phone.png"> 0897654321</li>
-					<li><img src="img/email.png"> johndoe@gmail.com</li>
-					<li><img src="img/facebook.png"> Facebook <span>facebook.com/johndoe</span></li>
-					<li><img src="img/twitter.png"> Twitter yah</li>
-				</ul>
-			</div>
-	</section>-->
-
-	<!--<footer>
-		<div class="container">
-			<p>Copyright &copy; 2015, All Rights Reserved</p>
 		</div>
-	</footer>-->
 
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/main.js"></script>
+
+
+		<footer>
+			<a href="https://github.com/jmealy"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+			<a href="https://www.linkedin.com/in/jamesmealy/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+			<a href="mailto:jamesmealy1@gmail.com"><i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i></a>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
 </body>
 
 </html>
